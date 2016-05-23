@@ -1,1 +1,6 @@
-Footer {background-color: Black;}
+body {background-color: Black; color: white}
+h1, h3, h5 {color: red}
+
+#footer {color: blue}
+a {color: red}
+a:active {color: white;}
