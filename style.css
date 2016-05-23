@@ -1,4 +1,4 @@
-body {background-image: url "http://www.psdgraphics.com/file/checkered-flag.jpg"; Black; color: white}
+body {background-image: url ("http://www.psdgraphics.com/file/checkered-flag.jpg"); color: white}
 h1, h2, h3 {color: red}
 
 table {width: 50%; height: 8%}
