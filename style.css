@@ -1,8 +1,8 @@
-body {background-image: url(http://www.psdgraphics.com/file/checkered-flag.jpg);}
+body {background-color: Black; color: white}
 h1, h2, h3 {color: red}
 
 table {width: 50%; height: 8%}
-
+body
 #footer {color: blue}
 a {color: red}
 a:active {color: white;}
