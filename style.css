@@ -2,13 +2,13 @@ body {background-color: Black; color: white;}
 h1, h2, h3, h4 {color: red}
 h4 {font-size: 18}
 table {width: 50%; height: 8%}
-body
+
+
 #footer {color: blue}
 a {color: red}
 a:active {color: white;}
 
 
-
-#size {float: center;}
-#color {float: center;}
-#quantity {float: center;}
+#size {float: left; margin-left: 385px}
+#color {float: left;}
+#quantity {float: left;}
