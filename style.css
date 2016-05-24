@@ -10,6 +10,3 @@ a {color: red}
 a:active {color: white;}
 #winged-list {display: inline-block}
 #non-winged-list {display: inline-block; float: right; margin-right: 2cm}
-#size {float: left; margin-left: 480px}
-#color {float: left;}
-#quantity {float: left;}
