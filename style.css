@@ -6,3 +6,9 @@ body
 #footer {color: blue}
 a {color: red}
 a:active {color: white;}
+
+
+
+#size {float: center;}
+#color {float: center;}
+#quantity {float: center;}
