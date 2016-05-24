@@ -7,8 +7,8 @@ table {width: 50%; height: 8%}
 #footer {color: blue}
 a {color: red}
 a:active {color: white;}
-
-
+#winged-list {display: inline-block}
+#non-winged-list {display: inline-block; float: right; margin-right: 2cm}
 #size {float: left; margin-left: 385px}
 #color {float: left;}
 #quantity {float: left;}
