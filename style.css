@@ -4,7 +4,8 @@ h4 {font-size: 24}
 h5 {font-size: 18}
 table {width: 50%; height: 8%}
 
-#navigation :hover {background-color: white}
+#navigation :hover {background-color: white }
+#navigation {color: black; background-color: skyblue; font-size: 42}
 #footer {color: blue}
 a {color: yellow}
 a:active {color: white;}
