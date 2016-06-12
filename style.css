@@ -3,7 +3,7 @@ body {
   max-width: 1500px;
   background-color: black;
   color: white;}
-h1 {color: yellow;}
+h1 {color: yellow; font-size: 50px}
 h2, h3, h5 {color: yellow}
 h4 {font-size: 24}
 h5 {font-size: 18}
