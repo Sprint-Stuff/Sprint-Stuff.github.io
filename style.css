@@ -9,7 +9,7 @@ h4 {font-size: 24}
 h5 {font-size: 18}
 table {width: 50%; height: 8%}
 
-#title {background-color: white; color: red;}
+#title {background-color: red; color: white;}
 #navigation :hover {background-color: white; color: black}
 #navigation {background-color: blue; font-size: 30}
 #footer {color: blue}
