@@ -1,4 +1,5 @@
 body {
+  margin: 0; padding: 0; height: 100%
   font-family: sans-serif, serif;
   max-width: 1500px;
   background-color: black;
@@ -7,12 +8,14 @@ h1 {font-size: 50px}
 h5 {color: yellow}
 h4 {font-size: 24}
 h5 {font-size: 18}
-table {width: 50%; height: 8%}
 
+
+#container {min-height: 100%; position: relative;}
+#body {padding-bottom: 60px}
 #title {color: yellow;}
 #navigation :hover {background-color: white; color: black}
 #navigation {background-color: blue; font-size: 30}
-#footer {color: blue}
+#footer {color: blue; height: 60px; width: 100%; bottom: 0; position: absolute;}
 a {color: white}
 a:active {color: orange}
 #winged-list {display: inline-block}
