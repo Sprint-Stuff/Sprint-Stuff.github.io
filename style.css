@@ -29,5 +29,4 @@ a:active {color: orange}
   }
 .product-title {float: left; padding: 2rem; width: 60%}
 
-#product1 {float: left; padding: 1rem; display: inline;}
-#product-contain {width: 60%}
+#product1 {float: left; padding: 1rem; display: inline; width: 150px}
