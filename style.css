@@ -17,3 +17,5 @@ a {color: white}
 a:active {color: orange}
 #winged-list {display: inline-block}
 #non-winged-list {display: inline-block; float: right; margin-right: 2cm}
+#product-nav :hover {background-color: black; color: yellow}
+#product-nav {background-color: white; color: blue; width: 15%}
