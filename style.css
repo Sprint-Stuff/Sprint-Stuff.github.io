@@ -22,7 +22,7 @@ a:active {color: orange}
 .product-nav :hover {background-color: white; color: black}
 .product-nav {
   float: left; padding-bottom: 60px;
-  padding-top:4rem; padding-left: 2rem;
+  padding-top:2rem; padding-left: 2rem;
   border: 0; border-right: 10; border-style: ridge; border-color: white;
   line-height: double;
   color: yellow; width: 25%; height: 100%;
