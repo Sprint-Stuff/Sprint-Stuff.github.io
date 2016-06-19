@@ -27,7 +27,7 @@ a:active {color: orange}
   line-height: double;
   color: yellow; width: 25%; height: 100%;
   }
-.product-title {float: left; padding: 2rem; font-size: 24px; width: 400px}
+.product-title {float: left; padding: 2rem; font-size: 24px; width: 450px}
 .product-note {float: right; padding: 2rem; width: 70%}
 
 #product1 {float: left; padding: 1rem; display: inline; width: 125px;}
