@@ -21,7 +21,7 @@ a:active {color: orange}
 #non-winged-list {display: inline-block; float: right; margin-right: 2cm}
 .product-nav :hover {background-color: white; color: black}
 .product-nav {
-  float: left; padding-bottom: 60px;
+  float: left; padding-bottom: 200px;
   padding-top:2rem; padding-left: 2rem;
   border: 0; border-right: 10; border-style: ridge; border-color: white;
   line-height: double;
