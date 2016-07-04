@@ -25,7 +25,7 @@ a:active {color: orange}
   padding-top:2rem; padding-left: 2rem;
   border: 0; border-right: 10; border-style: ridge; border-color: white;
   line-height: double;
-  color: yellow; width: 25%; height: 2000px;
+  color: yellow; width: 25%; height: 1000px;
   overflow: scroll;
   }
 .product-title {float: left; padding: 2rem; font-size: 24px; width: 405px}
