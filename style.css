@@ -32,5 +32,3 @@ a:active {color: orange}
 
 #product1 {float: left; padding: 1rem; display: inline; width: 125px;}
 #product-listing {position: relative; left: 50px}
-
-#suggestions {clear: both; border: 5; border-style: solid; border-color: white; padding-top: 2rem;}
