@@ -3,7 +3,8 @@ body {
   font-family: sans-serif, serif;
   width: 1100px;
   background-color: black;
-  color: white;}
+  color: white;
+  overflow-x: hidden;}
 h1 {font-size: 50px}
 h5 {color: yellow; font-size: 18}
 h4 {font-size: 24}
