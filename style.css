@@ -13,7 +13,6 @@ h4 {font-size: 24}
 #container {min-height: 100%; position: relative;}
 #body {
   padding-bottom: 60px;
-  padding-top: 15px;
 }
 #title {color: yellow;}
 #navigation :hover {background-color: white; color: black}
@@ -38,7 +37,11 @@ a:active {color: orange}
 .product-note {float: right; padding: 2rem; width: 70%}
 
 #product1 {float: left; padding: 1rem; display: inline; width: 125px;}
-#product-listing {position: relative; left: 50px}
+#product-listing {
+  position: relative;
+  left: 50px;
+  padding-top:15px;
+}
 tr.month > td {padding-top: 1em; padding-bottom: 1em}
 
 
