@@ -11,10 +11,17 @@ h4 {font-size: 24}
 
 
 #container {min-height: 100%; position: relative;}
-#body {padding-bottom: 60px}
+#body {
+  padding-bottom: 60px;
+  z-index: 1;
+}
 #title {color: yellow;}
 #navigation :hover {background-color: white; color: black}
-#navigation {background-color: blue; font-size: 30}
+#navigation {
+  background-color: blue;
+  font-size: 30;
+  z-index: 2;
+}
 #footer {color: blue; padding-top: 120px; padding-bottom: 20px; height: 60px; width: 100%; bottom: 20; clear: both;}
 a {color: white}
 a:active {color: orange}
