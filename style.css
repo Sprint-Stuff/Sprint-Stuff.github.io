@@ -58,7 +58,7 @@ tr.month > td {padding-top: 1em; padding-bottom: 1em}
 .dropdown:hover .dropdown-content {
     display: block;
     width: 200px;
-    background-color: blue;
+    background-color: black;
     color: white;
     font-size: 1rem;
 }
