@@ -34,3 +34,22 @@ a:active {color: orange}
 #product1 {float: left; padding: 1rem; display: inline; width: 125px;}
 #product-listing {position: relative; left: 50px}
 tr.month > td {padding-top: 1em; padding-bottom: 1em}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+}
