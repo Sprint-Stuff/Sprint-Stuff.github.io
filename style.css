@@ -40,7 +40,7 @@ a:active {color: orange}
 #product-listing {
   position: relative;
   left: 50px;
-  padding-top:15px;
+  padding-top:30px;
 }
 tr.month > td {padding-top: 1em; padding-bottom: 1em}
 
