@@ -48,17 +48,17 @@ a:active {color: orange}
   position: relative;
   left: 50px;
 }
-tr.month > td {padding-top: 1em; padding-bottom: 1em}
-
+tr.month > td {
+  padding-top: 1em;
+  padding-bottom: 1em
+}
 #about-us{
   padding-left: 25%;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -69,13 +69,4 @@ tr.month > td {padding-top: 1em; padding-bottom: 1em}
     background-color: black;
     color: white;
     font-size: 1rem;
-}
-
-.product-back {
-  display: none;
-  position: absolute;
-}
-
-#product1:hover .product-back {
-  display:inline-block;
 }
