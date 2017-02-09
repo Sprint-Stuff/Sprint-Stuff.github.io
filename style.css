@@ -71,3 +71,13 @@ tr.month > td {
     font-size: 1rem;
     z-index: 2;
 }
+
+.next-events {
+  position: fixed;
+  padding-bottom: 20px;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  color: black;
+
+}
