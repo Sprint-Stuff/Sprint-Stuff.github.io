@@ -1,7 +1,6 @@
 body {
-  margin: auto; padding: auto; height: 100%;
+  margin: 0; padding: 0; width: 100%; height: 100%;
   font-family: sans-serif, serif;
-  width: 1250px;
   background-color: black;
   color: white;
   overflow-x: hidden;}
@@ -21,10 +20,10 @@ h4 {font-size: 24}
   background-color: blue;
   font-size: 30;
 }
-#footer {color: blue; padding-top: 120px; padding-bottom: 20px; height: 60px; width: 100%; bottom: 20; clear: both;}
+#footer {color: blue; padding-top: 120px; padding-bottom: 20px; height: 60px; width: 100%; bottom:18px ; clear: both;}
 a {color: white}
 a:active {color: orange}
-#winged-list {display: inline-block}
+#winged-list {display: inline-block; padding-left: 5%}
 #non-winged-list {display: inline-block; float: right; margin-right: 2cm}
 .product-nav :hover {background-color: white; color: black}
 .product-nav {
@@ -72,12 +71,52 @@ tr.month > td {
     z-index: 2;
 }
 
+.scroll-background {
+  position: fixed;
+  bottom: 18;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  height: 15px;
+  border-right: 0;
+  border-left: 0;
+  border-style: solid;
+  border-color: red;
+}
 .next-events {
   position: fixed;
-  padding-bottom: 20px;
-  width: 100%;
+  bottom: 0;
   z-index: 2;
-  background-color: white;
+  width: 100%;
   color: black;
-
+  white-space: nowrap;
+  overflow: hidden;
+}
+.next-events p {
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);
+  transform:translateX(100%);
+  -moz-animation: next-events 30s linear infinite;
+  -webkit-animation: next-events 30s linear infinite;
+  animation: next-events 30s linear infinite;
+}
+@-moz-keyframes next-events {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes next-events {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes next-events {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
 }
