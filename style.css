@@ -34,7 +34,7 @@ a:active {color: orange}
   color: yellow; width: 25%; height: 650px;
   }
 .product-title {float: left; padding: 2rem; width: 405px; z-index: 1;}
-.product-title1 {float: left; padding: 2rem; width: 75%; z-index: 1;}
+.product-title1 {float: left; padding: 2rem; width: 70%; z-index: 1;}
 .product-note {float: right; padding: 2rem; width: 70%}
 
 #product1 {
