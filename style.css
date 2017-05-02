@@ -31,7 +31,7 @@ a:active {color: orange}
   padding-top:2rem; padding-left: 2rem;
   border: 10; border-right: 10; border-style: ridge; border-color: white;
   line-height: double;
-  color: yellow; width: 25%; height: 700px;
+  color: yellow; width: 25%; height: 600px;
   }
 .product-title {float: left; padding: 2rem; width: 405px; z-index: 1;}
 .product-note {float: right; padding: 2rem; width: 70%}
