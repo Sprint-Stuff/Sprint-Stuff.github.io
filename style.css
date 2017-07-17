@@ -37,6 +37,13 @@ a:active {color: orange}
 .product-title1 {float: left; padding: 2rem; width: 55%; z-index: 1;}
 .product-note {float: right; padding: 2rem; width: 70%}
 
+#video1 {
+  float: left;
+  padding: 1rem;
+  display: inline;
+  position: relative;
+}
+
 #product1 {
   float: left;
   padding: 1rem;
